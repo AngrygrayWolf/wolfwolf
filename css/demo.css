@@ -1,3 +1,46 @@
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0; }
+
+.box {
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg); }
+
 h1 {
-  height: 3px;
-  color: aliceblue; }
+  font: 100% Helvetica, sans-serif;
+  height: 100px;
+  font-size: 21px;
+  color: #ff0001;
+  background-color: #efefef; }
+
+.message, .success, .error, .warnning {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333333; }
+
+.success {
+  border-color: green; }
+
+.error {
+  border-color: red; }
+
+.warnning {
+  border-color: yellow; }
+
+.container {
+  width: 100%; }
+
+article[role="main"], article[role="complementary"] {
+  border: 10px solid #000000; }
+
+article[role="main"] {
+  float: left;
+  width: 62.5%; }
+
+article[role="complementary"] {
+  float: right;
+  width: 31.25%; }

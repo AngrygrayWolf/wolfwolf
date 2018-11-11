@@ -22,8 +22,10 @@
   "homepage": "https://github.com/AngrygrayWolf/wolfwolf#readme",
   "devDependencies": {
     "browser-sync": "^2.26.3",
+    "chai": "^4.2.0",
     "gulp": "^3.9.1",
     "gulp-sass": "^4.0.2",
+    "mocha": "^5.2.0",
     "sass": "^1.14.3"
   }
 }

@@ -1,0 +1,63 @@
+
+// use the partials
+@import reset
+
+
+// The variable
+$font-stack: Helvetica, sans-serif
+$primary-color: #333
+
+// Use the mixins
+=transform($property)
+    -webkit-transform: $property
+    -ms-transform: $property
+    transform: $property
+
+.box
+    +transform(rotate(30deg))
+
+h1 
+    font: 100% $font-stack
+    height: 100px
+    font-size: 21px
+    color: #ff0001
+    background-color: #efefef
+
+// Extend and Inheritance
+%message-shared
+    border: 1px solid #ccc
+    padding: 10px
+    color: #333333
+
+.message
+    @extend %message-shared
+
+.success
+    @extend %message-shared
+    border-color: green
+
+.error
+    @extend %message-shared
+    border-color: red
+
+.warnning
+    @extend %message-shared
+    border-color: yellow
+
+// operators
+.container
+    width: 100%
+
+%container
+    border: 10px solid #000000
+
+article[role="main"]
+    float: left
+    width: 600px / 960px * 100%
+    @extend %container
+
+article[role="complementary"]
+    @extend %container
+    float: right
+    width: 300px / 960px * 100%
+
