@@ -3,13 +3,12 @@ let browserSync = require('browser-sync').create();
 let sass = require('gulp-sass');
 sass.compiler = require('node-sass');
 gulp.task('serve', ['sass'], function () {
-    
     browserSync.init({
         server: './'
     });
 
     gulp.watch('./source/*.sass', ['sass']);
-    gulp.watch('*.html').on('change', browserSync.reload);
+    gulp.watch('pages/*.html').on('change', browserSync.reload);
 });
 
 gulp.task('sass', function() {
