@@ -1,5 +1,5 @@
 # wolfwolf
-Only a study project for web
+Post all your hard, Put changes, Delete erros, and last, Get married what you love.
 
 ## Day one
 - Study the gulp
@@ -16,10 +16,22 @@ TODO:
         6. Extend/Inheritance
         7. Operators
    
-   ## Day two
+## Day two
     - [x] Use the `mocha` to learn the TDD
     - [x] Use the `Mock` to simulate json data
         1. [Data Template Definition]{https://github.com/nuysoft/Mock/wiki/Syntax-Specification}
         2. Data Placeholder Definition
     > Question: How to use the mockjs in node ENV
+    Can add a function that judge the current env
     >           How to debug
+
+
+## Day three
+- [ ] Learn the table of HTML
+    - [ ] How to scroll
+    - [ ] How to make a beautifual table
+    - [ ] How to make a adjustable table
+- [ ] Use the flex layout and learn `bootstrap 4`
+  
+## Day four
+- [ ] npm script to build a workflow
