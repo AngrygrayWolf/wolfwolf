@@ -66,3 +66,6 @@ test("run the generators auto", () => {
     co(middlware)
     expect(test).toEqual([1, 3, 5, 6, 4, 2])
 })
+
+
+//TODO: add the async and the normal function test
